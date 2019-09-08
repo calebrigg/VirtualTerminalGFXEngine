@@ -1,6 +1,6 @@
-My program contain no file heirarchy, as I didn't think it necessary, considering there is only the single .cpp file, a single .h file and a single texture image.
+This program can only be run in Linux.
 
-The program should execute in all Linux Distro's, however, I'm unsure about whether or not it is able to run on Mac OS. The g++ compiler is obviously mandatory to compile the code, as well as OpenGl. The following command is required to compile the project: 
+The g++ compiler is mandatory to compile the code, as well as OpenGl. The following command is required to compile the project: 
 "g++ -o Project ConsoleApplication1.cpp -lX11 -lGL -lpthread -lpng -Wno-deprecated"
 to execute the resulting 'Project' file you simply need to enter "vblank_mode=0 ./Project".
 
